@@ -16,7 +16,6 @@ categorical_cols = ['Name', 'Upgrade', 'Perk', 'Type', 'Category']
 
 API_URL = "http://localhost:11434/api/generate"
 
-
 # ⭐ Function to generate a full weapon name from a base name
 def generate_weapon_name(base_name):
     prompt = f"""
